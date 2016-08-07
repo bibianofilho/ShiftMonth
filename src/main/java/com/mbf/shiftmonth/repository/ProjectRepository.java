@@ -12,7 +12,7 @@ import com.mbf.shiftmonth.model.Project;
 
 public interface ProjectRepository extends JpaRepository<Project, Long> {
 	
-	@Query("select new com.great.greatmonth.greatmonth.model.Project(p.idProject, p.nmProject, p.dsProject) from Project p where (p.idProject=:idProject  or -1 = :idProject)")	
+	@Query("select new com.mbf.shiftmonth.model.Project(p.idProject, p.nmProject, p.dsProject) from Project p where (p.idProject=:idProject  or -1 = :idProject)")	
 	List<Project> findByIdProject(@Param("idProject" ) int idProject);
 	
 	
