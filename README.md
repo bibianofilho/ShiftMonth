@@ -1,6 +1,6 @@
 # ShiftMonth
 
-Technologies: Spring Boot, Spring MVC, Maven, JavaScript, html, Jsp, CSS, Hibernate, Bootstrap, Jquery and Mysql;
+Technologies: Spring Boot, Spring MVC, Maven, JavaScript, html, Jsp, CSS, Hibernate, Bootstrap, Jquery, GIT and Mysql;
 
 # Screens
 ![Caution image](docs/screens/projects1.PNG)<br><br>
